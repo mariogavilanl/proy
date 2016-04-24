@@ -36,3 +36,4 @@ class CreateBitacoraTable extends Migration
 
     }
 }
+
