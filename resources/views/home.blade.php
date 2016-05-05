@@ -33,7 +33,7 @@
                 {!! Form::text('fecha_solicitud') !!}
                 {!! Form::text('fecha_solicitud') !!}
                 {!! Form::text('fecha_solicitud') !!}
-
+                <input type="submit" value="BOTON caca" >
                 {!! Form::close() !!}
 
 

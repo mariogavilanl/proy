@@ -24,7 +24,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return ("HOLA XD");
+        return view('home');
+    }
+
+ public function caca(Request $request)
+    {
+        dd($request);
+        
+
     }
 
     public function faq()

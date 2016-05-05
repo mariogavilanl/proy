@@ -19,5 +19,8 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::post('/home', 'HomeController@caca');
+
+
 Route::get('/faq', 'HomeController@faq');
 Route::get('/historial', 'HomeController@historial');
